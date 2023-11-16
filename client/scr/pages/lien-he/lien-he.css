@@ -1,0 +1,86 @@
+.LH-container {
+  background-color: #f4f4f444;
+}
+
+.LH-main {
+  display: flex;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 50px auto;
+  font-size: 15px;
+}
+
+.LH-sendRQ {
+  flex: 1;
+}
+
+.LH-sendRQ-form {
+  padding-left: 50px;
+}
+
+.LH-sendRQ-form-input {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.LH-infor {
+  flex: 1;
+}
+
+.LH-input-text {
+  display: flex;
+  gap: 25px;
+}
+
+.LH-input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.LH-input {
+  padding: 8px;
+  width: 180px;
+}
+
+.LH-input-phone {
+  padding: 8px;
+  width: 160px;
+}
+
+.LH-input-text1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.LH-input-text1 textarea {
+  width: 100%; /* Chiều rộng 100% của phần tử cha */
+  width: 400px; /* Chiều rộng tối đa (có thể điều chỉnh theo ý muốn) */
+  height: 200px; /* Chiều cao 100px (có thể điều chỉnh theo ý muốn) */
+}
+
+.LH-button {
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: 1px solid white;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.LH-button:hover {
+  border: 1px solid rgb(0, 140, 255);
+  background-color: white;
+  color: rgb(0, 140, 255);
+}
+
+.LH-link {
+  color: blue;
+  text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
+  font-weight: bold; /* In đậm chữ của liên kết */
+}
+
+.LH-link:hover {
+  text-decoration: underline;
+}

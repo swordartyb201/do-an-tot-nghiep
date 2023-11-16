@@ -1,0 +1,93 @@
+.register-container {
+  background-image: url('../../img/bglogin.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.RLogo {
+  width: 400px;
+  height: auto;
+}
+
+.register {
+  height: 83vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 30px; /* Thêm padding để tạo viền trắng xung quanh khung .lContainer */
+  border: 2px solid white; /* Thêm viền trắng xung quanh khung .lContainer */
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 132, 255, 0.6);
+}
+
+.rtext {
+  text-align: center;
+  margin-bottom: 8px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  font-size: 28px;
+}
+
+.divider {
+  height: 1px; /* Độ dày của đường kẻ */
+  background-color: white; /* Màu sắc của đường kẻ */
+}
+
+.rInput{
+  height: 15px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.rButton {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(0, 132, 255, 0.8);
+  border: 2px solid white;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: -1px;
+}
+
+.rButton:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(0,132,255);
+}
+
+.hasMember {
+  font-size: 13px;
+  text-align: right;
+  font-weight: bold;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+.errorMessage {
+  font-size: 12px;
+  margin-top: -1px;
+}
+
+.errorText {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255, 72, 0);
+  text-align: center;
+}
+
+.rLogin {
+  color: rgb(255, 255, 255);
+}
+.rLogin:hover {
+  color: rgb(0, 0, 0);
+}
+

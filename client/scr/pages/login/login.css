@@ -1,0 +1,89 @@
+.login-container {
+  background-image: url('../../img/bglogin.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.lLogo {
+  width: 400px;
+  height: auto;
+}
+
+.login {
+  height: 83vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px; /* Thêm padding để tạo viền trắng xung quanh khung .lContainer */
+  border: 2px solid white; /* Thêm viền trắng xung quanh khung .lContainer */
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 132, 255, 0.6);
+}
+
+.ltext {
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  font-size: 28px;
+}
+
+.divider {
+  height: 1px; /* Độ dày của đường kẻ */
+  background-color: white; /* Màu sắc của đường kẻ */
+}
+
+.lInput{
+  height: 18px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.forgotPassword {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);;
+}
+
+.lButton {
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(0, 132, 255, 0.8);
+  border: 2px solid white;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.lButton:hover {
+  background-color: rgba(255, 255, 255, 0.796);
+  color: rgba(0,132,255);
+}
+
+.notAMember {
+  font-size: 13px;
+  text-align: right;
+  font-weight: bold;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+
+.rlink {
+  color: white;
+  font-weight: bold;
+}
+.rlink:hover {
+  color: rgb(225, 255, 0);
+}
