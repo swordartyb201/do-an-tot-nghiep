@@ -1,0 +1,6 @@
+.GTbanner {
+  background-image: url("../../../img/GT-img1.jpg");
+  background-size: 100% auto; /* Đảm bảo ảnh nền bao phủ toàn bộ lớp */
+  background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+  height: 580px;
+}

@@ -1,0 +1,121 @@
+import "./GTmain.css";
+import React from "react";
+import { Link } from "react-router-dom";
+
+const GTmain = () => {
+  return (
+    <div className="GTmain">
+      <div className="GTmain-box1">
+        <div className="GTmain-box-text">
+          <h2 style={{ textAlign: "center" }}>CHÀO MỪNG ĐẾN SKY OFFICE</h2>
+          <p style={{ textAlign: "center" }}>
+            {" "}
+            Giải pháp cho thuê văn phòng thông minh
+          </p>
+          <p className="GTmain-text">
+            Ghi nhận những tiện ích và hiệu quả của hình thức kinh doanh văn
+            phòng thông minh, <b>Sky Office</b> chuyên cung cấp các loại hình
+            dịch vụ văn phòng chuyên nghiệp và hiện đại phù hợp với mọi hoạt
+            động kinh doanh của các doanh nghiệp.
+          </p>
+          <p className="GTmain-text">
+            Nhằm đáp ứng các nhu cầu khác nhau về địa điểm văn phòng,{" "}
+            <b>Sky Office</b> hiện diện tại các tòa nhà văn phòng hiện đại và
+            đẹp hàng đầu Hà Nội:
+          </p>
+          <div className="GTmain-list">
+            <ul>
+              <li>Quận Hoàn Kiếm: </li>
+              <li>Quận Hoàn Kiếm: </li>
+              <li>Quận Đống Đa: </li>
+              <li>Quận Thanh Xuân: </li>
+              <li>Quận Hà Đông: </li>
+            </ul>
+            <div className="GTmain__link-box">
+              <a
+                href="https://maps.app.goo.gl/S8ziZF9Uhfqo5Gvd8"
+                style={{ textDecoration: "none" }}
+                className="GTmain__link"
+                target="_blank"
+                rel="noopener"
+              >
+                <p>Capital Tower, 109 Trần Hưng Đạo, Cửa Nam</p>
+              </a>
+              <a
+                href="https://maps.app.goo.gl/JDhrDb2rBgEh4X3h9"
+                style={{ textDecoration: "none" }}
+                className="GTmain__link"
+                target="_blank"
+                rel="noopener"
+              >
+                <p>Hồng Hà Building, 885 Đ. Hồng Hà, Chương Dương Độ</p>
+              </a>
+              <a
+                href="https://maps.app.goo.gl/sX2K71erJxbnJz9T7"
+                style={{ textDecoration: "none" }}
+                className="GTmain__link"
+                target="_blank"
+                rel="noopener"
+              >
+                <p>King Building, 7 P. Chùa Bộc, Kim Liên</p>
+              </a>
+              <a
+                href="https://maps.app.goo.gl/17L21gACqP7qMQhV7"
+                style={{ textDecoration: "none" }}
+                className="GTmain__link"
+                target="_blank"
+                rel="noopener"
+              >
+                <p>VG Building, 235 Đ. Nguyễn Trãi, Thanh Xuân Trung</p>
+              </a>
+              <a
+                href="https://maps.app.goo.gl/Wnda4doSgex4xvJZ6"
+                style={{ textDecoration: "none" }}
+                className="GTmain__link"
+                target="_blank"
+                rel="noopener"
+              >
+                <p>Ellipse Building, 110 Trần Phú, P. Mộ Lao</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default GTmain;
+
+
+.GTmain {
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .GTmain-box1 {
+    font-size: 15px;
+  }
+  
+  .GTmain-text {
+    margin-top: 10px;
+    text-align: justify;
+  }
+  
+  .GTmain-list {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    line-height: 1.5;
+    font-style: italic;
+  }
+  
+  .GTmain__link {
+    color: rgb(0, 132, 255);
+    transition: color 0.5s;
+  }
+  
+  .GTmain__link:hover {
+    color: black;
+  }
+  

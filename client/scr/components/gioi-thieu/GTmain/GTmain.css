@@ -1,0 +1,84 @@
+.GTmain-container {
+  justify-content: center;
+  width: 100%;
+}
+
+.GTmain-empty-space {
+  height: 70px;
+}
+
+.GTmain-top-container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.GTmain-top {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: justify;
+}
+
+.GTmain-top-left {
+  flex: 1;
+}
+
+.GTmain2__img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.GTmain-top-right {
+  flex: 1;
+  gap: 20px;
+}
+
+.GTmain-top-right2 {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.GTmain-top-right2-item {
+  flex: 1;
+}
+
+.GTmain-icon-container {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b3ff; /* Màu xanh, bạn có thể thay đổi theo ý muốn */
+  border-radius: 50%; /* Điều này sẽ tạo thành một hình tròn */
+  width: 90px; /* Điều chỉnh kích thước tùy ý */
+  height: 90px; /* Điều chỉnh kích thước tùy ý */
+}
+
+.GTmain-icon {
+  color: #fff; /* Màu của biểu tượng trắng */
+  font-size: 50px;
+}
+
+.GTmain-bot-container {
+  background-image: url("../../../img/gioi-thieu-bg.jpg");
+  background-size: 100% auto; /* Đảm bảo ảnh nền bao phủ toàn bộ lớp */
+  background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+}
+
+.GTmain-bot {
+  display: flex;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 50px 0px;
+  gap: 20px;
+  color: white;
+}
+
+.GTmain-bot-item {
+  flex: 2;
+}
+
+.GTmain-bot-item1 {
+  flex: 1;
+  text-align: justify;
+}

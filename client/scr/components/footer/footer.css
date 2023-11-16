@@ -1,0 +1,83 @@
+.footer {
+  width: 100%;
+}
+
+.footer__box {
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  color: white;
+  text-align: justify;
+  align-items: center;
+  justify-content: space-between;
+  gap: 500px;
+  padding: 40px;
+}
+.footer__box-about {
+  flex: 2;
+}
+
+.footer__text {
+  font-size: 14px;
+  margin: 20px 0px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.footer__link {
+  color: white;
+  font-size: 14px;
+  transition: color 1s;
+}
+.footer__link:hover {
+  color: rgb(0, 140, 255);
+}
+
+.footer__logo {
+  width: 40%;
+  height: auto;
+  transition: transform 0.7s ease;
+}
+.footer__logo:hover {
+  transform: scale(1.1);
+}
+.footer__box-contact {
+  flex: 1;
+}
+
+.footer__title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer__box-contact-list {
+  margin-bottom: 20px;
+}
+.footer__box-contact-list-item {
+  color: #ffffff;
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.footer__icon {
+  width: 20px;
+  height: 20px;
+  color: rgb(255, 34, 0);
+  padding: 6px 8px 0 0;
+  transition: transform 0.7s ease;
+}
+
+.footer__box-contact-list-item:hover .footer__icon {
+  color: rgb(0, 140, 255);
+  transform: scale(1.5);
+}
+
+.footer__copy-right {
+  width: 100%;
+  max-width: auto;
+  padding: 10px 0;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgb(65, 65, 65);
+  color: white;
+}

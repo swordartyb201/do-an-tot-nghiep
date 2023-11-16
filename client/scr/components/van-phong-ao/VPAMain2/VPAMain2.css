@@ -1,0 +1,61 @@
+.VPA__main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+  gap: 30px;
+}
+
+.VPA__main2-box1 {
+  text-align: center;
+}
+
+.VPA__main2-row-img {
+  display: flex;
+  justify-content: center;
+}
+.VPA__main2-img {
+  width: 25%;
+}
+
+.VPA__main2-box2 {
+  text-align: center;
+}
+
+.VPA__main2-row {
+  margin: 20px 0px;
+  display: flex;
+  gap: 200px;
+}
+
+.VPA__main2-text {
+  font-size: 15px;
+}
+
+.VPA__main2-row-item {
+  display: flex;
+  gap: 5px;
+}
+.VPA__main2-row-icon {
+  flex: 1;
+}
+.VPA__main2-icon {
+  width: 25px;
+  height: 25px;
+  color: rgb(0, 140, 255);
+  margin-bottom: 10px;
+}
+
+.VPA__main2-note-box {
+  text-align: left;
+  font-style: italic;
+  color: rgb(80, 80, 80);
+}
+
+.VPA__main2-note-title {
+  margin-bottom: 10px;
+}
+.VPA__main2-note-text {
+  font-size: 15px;
+  line-height: 1.5;
+}
