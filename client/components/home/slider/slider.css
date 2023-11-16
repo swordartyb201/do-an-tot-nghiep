@@ -1,0 +1,15 @@
+.slider-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.home-slider-image {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+}

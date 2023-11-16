@@ -1,0 +1,114 @@
+.main1 {
+  width: 100%;
+  align-items: center;
+  max-width: 1300px;
+}
+
+.main1__empty-space {
+  height: 20px;
+}
+
+.main1__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.main1__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.main1__column2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.main1__column-left {
+  flex: 1;
+  display: flex;
+}
+
+.main1__column-left-box {
+  flex: 1;
+}
+
+.main1_link {
+  cursor: pointer;
+}
+
+.main1__img {
+  max-width: 70%;
+  margin-bottom: 5px;
+  transition: transform 0.8s ease;
+}
+
+.main1__img:hover {
+  transform: scale(1.08); /* Phóng to 1.1 lần khi di chuột vào */
+}
+
+.main1__column-desc1 {
+  font-size: 16px;
+  padding: 0px 30px;
+  text-align: justify;
+}
+
+.main1__column-bold-text1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 10px 0px;
+}
+
+.main1__column-right {
+  flex: 1;
+  align-items: center;
+}
+
+.main1__column-right-box {
+  justify-content: center;
+  padding: 0px 25px;
+}
+
+.main1__column-bold-text2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.main1__column-desc2 {
+  font-size: 16px;
+  padding: 0px 10px;
+  color: grey;
+  margin: 10px 0px;
+}
+
+.main1__button {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 8px;
+  background-color: rgb(0, 140, 255);
+  transition: background-color 0.4s, color 0.4s;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.main1__button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 140, 255);
+  border: 1px solid rgb(0, 140, 255);
+}

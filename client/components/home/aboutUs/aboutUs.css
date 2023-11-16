@@ -1,0 +1,70 @@
+.aboutUs {
+  width: 100%;
+  align-items: center;
+  max-width: 1300px;
+}
+
+.aboutUs__empty-space {
+  height: 20px;
+}
+
+.aboutUs__box {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.aboutUs__box-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutUs__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.aboutUs_title-2 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.aboutUs__desc {
+  font-size: 16 px;
+  text-align: justify;
+  padding: 5px 0px;
+}
+
+.aboutUs__box-img {
+  flex: 1;
+}
+
+.aboutUs__box-button {
+  padding-top: 10px;
+}
+
+.aboutUs__button {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 8px;
+  background-color: rgb(0, 140, 255);
+  transition: background-color 0.4s, color 0.4s;
+  width: 200px;
+  height: 40px;
+}
+
+.aboutUs__button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 140, 255);
+  border: 1px solid rgb(0, 140, 255);
+}

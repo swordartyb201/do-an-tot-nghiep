@@ -1,0 +1,71 @@
+.VPAmain3-container {
+  max-width: 1100px;
+  margin: 20px auto 10px;
+}
+
+.VPA-text-box {
+  text-align: justify;
+  color: rgb(80, 80, 80);
+}
+
+.VPA-text {
+  margin: 10px 0px;
+}
+.VPAaccordion1-titles {
+  display: flex;
+  flex-direction: row; /* Để tiêu đề xếp theo hàng ngang */
+}
+
+.VPAaccordion1-title {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #eeeeee4c;
+  padding: 10px;
+  text-align: center;
+  margin-right: 10px; /* Khoảng cách giữa các tiêu đề */
+  border-bottom: 2px solid transparent;
+}
+
+.VPAaccordion1-title:hover {
+  cursor: pointer;
+  border-color: rgb(0, 76, 255);
+}
+
+.VPAaccordion1-title.active {
+  cursor: pointer;
+  border-color: rgb(0, 76, 255);
+}
+
+.VPAaccordion1-content {
+  text-align: justify;
+  margin-top: 20px;
+  color: rgb(80, 80, 80);
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.VPAaccordion2 {
+  background-color: rgba(238, 238, 238, 0.816);
+  border-radius: 5px;
+  text-align: justify;
+  color: rgb(80, 80, 80);
+}
+
+.VPAaccordion2-title {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.VPAaccordion2-title:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+.VPAcustom2-content {
+  font-size: 15px;
+  padding: 0px 20px;
+}
