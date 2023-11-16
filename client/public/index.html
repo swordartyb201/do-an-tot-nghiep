@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sky Office" />
+    <title>Sky Office</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./ico/site.webmanifest" />
+    <style>
+      * {
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>Bạn cần bật Javascript để bật được trang web.</noscript>
+    <div id="root"></div>
+
+    <script>
+      // Sử dụng sự kiện onbeforeunload để cuộn lên đầu trang trước khi trang được unload.
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+    </script>
+  </body>
+</html>
